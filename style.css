@@ -1,0 +1,50 @@
+svg{
+  margin: 0 auto;
+  display: block;
+  padding-top: 10px
+}
+
+.tooltip{
+  opacity: 0;
+  position: absolute;
+  pointer-events: none;
+  background-color: white;
+  border-radius: 5px;
+  border: 10px solid pink
+}
+
+.tooltip p{
+  padding: 5px;
+  margin: 0;
+
+}
+
+.barTooltip{
+  opacity: 0;
+  position: absolute;
+  pointer-events: none;
+  background-color: white;
+  border-radius: 3px;
+  padding: 3px;
+  border: 2px solid green;
+}
+
+.barTooltip p{
+  margin: 0;
+  padding: 0;
+}
+
+.pieTooltip{
+  opacity: 0;
+  position: absolute;
+  pointer-events: none;
+  background-color: white;
+  border-radius: 3px;
+  padding: 3px;
+  border: 2px solid purple;
+}
+
+.pieTooltip p{
+  margin: 0;
+  padding: 0;
+}
